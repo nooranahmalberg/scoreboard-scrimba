@@ -1,0 +1,112 @@
+.twinkle-star-regular {
+  font-family: "Twinkle Star", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    margin-top: 16px;
+    text-align: center;
+    background-color: #F3D8FF;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-container {
+    display: grid;
+    margin-top: 4px;
+    width: 100%;
+    padding: 20px;
+    margin: 8px;
+    background-color: #FAF0FF;
+    border-radius: 12px;
+}
+
+.foul-container {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    color: #1D1E33;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.starlightscore {
+    font-size: 72px;
+    height: 125px;
+    min-width: 220px;
+    color: #FFFFFF;
+    align-content: center;
+    border-radius: 8px;
+    background: rgba(29, 30, 51, .8);
+    background-image: url("./img/starlight-background.png");
+}
+
+.tuxedoscore {
+    font-size: 72px;
+    height: 125px;
+    min-width: 220px;
+    color: #FFFFFF;
+    align-content: center;
+    border-radius: 8px;
+    background: rgba(29, 30, 51, .8);
+    background-image: url("./img/tuxedo-background.png");
+}
+
+h3 {
+    display: inline;
+    font-size: 24px;
+    font-weight: normal;
+    color: #1D1E33;
+    line-height: 24px;
+}
+
+#newGameBtn {
+    font-size: 14px;
+    width: fit-content;
+    background-color: #F3D8FF;
+    border: 2px solid #3A3C66;
+    color: #3A3C66;
+    border-radius: 999px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.button {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+}
+
+button {
+    font-size: 20px;
+    height: fit-content;
+    width: 33%;
+    background-color: #FAF0FF;
+    border: 2px solid #3A3C66;
+    border-radius: 99px;
+    color: #3A3C66;
+    padding: 8px;
+}
+
+.foulbutton {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  margin: 0;
+  padding: 0;
+}

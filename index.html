@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <button id="newGameBtn" onclick="newGame()">New game</button>
+        </div>
+        <div class="container">
+            <div class="team-container">
+                <h3 id="t1-name">Starlight Strategists</h3>
+                <div class="starlightscore" id="t1-score">0</div>
+                <div class="button">
+                    <button id="t1-add1" onclick="t1add1()"">+1</button>
+                    <button id="t1-add2" onclick="t1add2()">+2</button>
+                    <button id="t1-add5" onclick="t1add5()">+5</button>
+                </div>
+                <div class="foul-container">
+                    <span id="t1-foulcounter">0</span>
+                    <svg width="22" height="36" viewBox="0 0 22 36" fill="none">
+                        <rect x="0.5" y="1" width="21" height="34" rx="1.5" fill="#E70000" stroke="#3A3C66"/>
+                    </svg>
+                    <button class="foulbutton" id="t1-addfoul" onclick="t1Foul()"><img src="./img/sailormoon-foulbutton.png" /></button>
+                </div>
+            </div>
+            <div class="team-container">
+                <h3 id="t2-name">Tuxedo Tactics</h3>
+                <div class="tuxedoscore" id="t2-score">0</div>
+                <div class="button">
+                    <button id="t2-add1" onclick="t2add1()">+1</button>
+                    <button id="t2-add2" onclick="t2add2()">+2</button>
+                    <button id="t2-add5" onclick="t2add5()">+5</button>
+                </div>
+                <div class="foul-container">
+                    <span id="t2-foulcounter">0</span>
+                    <svg width="22" height="36" viewBox="0 0 22 36" fill="none">
+                        <rect x="0.5" y="1" width="21" height="34" rx="1.5" fill="#E70000" stroke="#3A3C66"/>
+                    </svg>
+                    <button class="foulbutton" id="t2-addfoul" onclick="t2Foul()"><img src="./img/sailormoon-foulbutton.png" /></button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
