@@ -4,6 +4,7 @@ body {
   background-color: #faf0ff;
   color: #1d1e33;
   font-family: "Twinkle Star", cursive;
+  max-width: 1200px;
   width: 70%;
   margin: 24px auto;
 }
