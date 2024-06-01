@@ -9,6 +9,19 @@ const t2scoreEl = document.getElementById("t2-score");
 const t1foulEl = document.getElementById("t1-foulcounter");
 const t2foulEl = document.getElementById("t2-foulcounter");
 
+document.getElementById("newGameBtn").addEventListener("click", newGame);
+
+document.getElementById("t2-add1").addEventListener("click", t2add1);
+document.getElementById("t2-add2").addEventListener("click", t2add2);
+document.getElementById("t2-add5").addEventListener("click", t2add5);
+
+document.getElementById("t1-add1").addEventListener("click", t1add1);
+document.getElementById("t1-add2").addEventListener("click", t1add2);
+document.getElementById("t1-add5").addEventListener("click", t1add5);
+
+document.getElementById("t1-addfoul").addEventListener("click", t1Foul);
+document.getElementById("t2-addfoul").addEventListener("click", t2Foul);
+
 function newGame() {
   t1score = 0;
   t2score = 0;
