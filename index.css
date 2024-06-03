@@ -1,5 +1,4 @@
 body {
-  margin-top: 24px;
   text-align: center;
   background-color: #faf0ff;
   color: #1d1e33;
@@ -12,7 +11,6 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 4px 8px;
 }
 
 .container {
@@ -21,12 +19,10 @@ body {
 }
 
 .team-container {
-  display: grid;
-  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  padding: 20px;
-  margin: 8px;
-  background-color: #faf0ff;
+  margin: 24px;
 }
 
 .starlightimg {
@@ -135,4 +131,25 @@ button:hover {
 
 .sailormoon {
   width: 120px;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    width: max-content;
+    margin: auto;
+    padding: 8px 8px;
+  }
+  .header {
+    min-width: 380px;
+  }
+  .container {
+    flex-direction: column;
+    margin-top: 16px;
+  }
+  .team-container {
+    margin: 0px;
+  }
+  .sailormoon {
+    width: 100px;
+  }
 }
